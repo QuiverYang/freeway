@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		217A3D1F28B60C68005B287F /* location.csv in Resources */ = {isa = PBXBuildFile; fileRef = 217A3D1E28B60C68005B287F /* location.csv */; };
+		217A3D2028B61306005B287F /* location.csv in Resources */ = {isa = PBXBuildFile; fileRef = 217A3D1E28B60C68005B287F /* location.csv */; };
+		217A3D2328B7138F005B287F /* LocalCSVLoaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A3D2228B7138E005B287F /* LocalCSVLoaderTest.swift */; };
+		217A3D2628B7B671005B287F /* SpeedCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A3D2528B7B671005B287F /* SpeedCamera.swift */; };
+		217A3D2928B7B6C8005B287F /* LocalCSVLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A3D2828B7B6C7005B287F /* LocalCSVLoader.swift */; };
+		217A3D2B28B7B71B005B287F /* SpeedCameraMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A3D2A28B7B71B005B287F /* SpeedCameraMapper.swift */; };
 		21F9B6782778ABC9005BE8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9B6772778ABC9005BE8EF /* AppDelegate.swift */; };
 		21F9B67A2778ABC9005BE8EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9B6792778ABC9005BE8EF /* SceneDelegate.swift */; };
 		21F9B67C2778ABC9005BE8EF /* AppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9B67B2778ABC9005BE8EF /* AppleViewController.swift */; };
 		21F9B67F2778ABC9005BE8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F9B67D2778ABC9005BE8EF /* Main.storyboard */; };
 		21F9B6812778ABCC005BE8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F9B6802778ABCC005BE8EF /* Assets.xcassets */; };
 		21F9B6842778ABCC005BE8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F9B6822778ABCC005BE8EF /* LaunchScreen.storyboard */; };
-		21F9B68F2778ABCC005BE8EF /* free_wayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9B68E2778ABCC005BE8EF /* free_wayTests.swift */; };
 		21F9B69A2778ABCC005BE8EF /* free_wayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9B6992778ABCC005BE8EF /* free_wayUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		217A3D1E28B60C68005B287F /* location.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location.csv; sourceTree = "<group>"; };
+		217A3D2128B61443005B287F /* free way.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "free way.entitlements"; sourceTree = "<group>"; };
+		217A3D2228B7138E005B287F /* LocalCSVLoaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCSVLoaderTest.swift; sourceTree = "<group>"; };
+		217A3D2528B7B671005B287F /* SpeedCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedCamera.swift; sourceTree = "<group>"; };
+		217A3D2828B7B6C7005B287F /* LocalCSVLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCSVLoader.swift; sourceTree = "<group>"; };
+		217A3D2A28B7B71B005B287F /* SpeedCameraMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedCameraMapper.swift; sourceTree = "<group>"; };
 		21F9B6742778ABC9005BE8EF /* free way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "free way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F9B6772778ABC9005BE8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F9B6792778ABC9005BE8EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +55,6 @@
 		21F9B6832778ABCC005BE8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F9B6852778ABCC005BE8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F9B68A2778ABCC005BE8EF /* free wayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "free wayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21F9B68E2778ABCC005BE8EF /* free_wayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = free_wayTests.swift; sourceTree = "<group>"; };
 		21F9B6902778ABCC005BE8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F9B6952778ABCC005BE8EF /* free wayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "free wayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F9B6992778ABCC005BE8EF /* free_wayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = free_wayUITests.swift; sourceTree = "<group>"; };
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		217A3D2428B7B625005B287F /* Camera Feature */ = {
+			isa = PBXGroup;
+			children = (
+				217A3D2528B7B671005B287F /* SpeedCamera.swift */,
+				217A3D2A28B7B71B005B287F /* SpeedCameraMapper.swift */,
+			);
+			path = "Camera Feature";
+			sourceTree = "<group>";
+		};
+		217A3D2728B7B69F005B287F /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				217A3D2828B7B6C7005B287F /* LocalCSVLoader.swift */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
 		21F9B66B2778ABC9005BE8EF = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +126,9 @@
 		21F9B6762778ABC9005BE8EF /* free way */ = {
 			isa = PBXGroup;
 			children = (
+				217A3D2728B7B69F005B287F /* CSV */,
+				217A3D2428B7B625005B287F /* Camera Feature */,
+				217A3D2128B61443005B287F /* free way.entitlements */,
 				217A3D1E28B60C68005B287F /* location.csv */,
 				21F9B6772778ABC9005BE8EF /* AppDelegate.swift */,
 				21F9B6792778ABC9005BE8EF /* SceneDelegate.swift */,
@@ -116,8 +144,8 @@
 		21F9B68D2778ABCC005BE8EF /* free wayTests */ = {
 			isa = PBXGroup;
 			children = (
-				21F9B68E2778ABCC005BE8EF /* free_wayTests.swift */,
 				21F9B6902778ABCC005BE8EF /* Info.plist */,
+				217A3D2228B7138E005B287F /* LocalCSVLoaderTest.swift */,
 			);
 			path = "free wayTests";
 			sourceTree = "<group>";
@@ -245,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217A3D2028B61306005B287F /* location.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F9B67C2778ABC9005BE8EF /* AppleViewController.swift in Sources */,
+				217A3D2B28B7B71B005B287F /* SpeedCameraMapper.swift in Sources */,
 				21F9B6782778ABC9005BE8EF /* AppDelegate.swift in Sources */,
+				217A3D2628B7B671005B287F /* SpeedCamera.swift in Sources */,
 				21F9B67A2778ABC9005BE8EF /* SceneDelegate.swift in Sources */,
+				217A3D2928B7B6C8005B287F /* LocalCSVLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F9B68F2778ABCC005BE8EF /* free_wayTests.swift in Sources */,
+				217A3D2328B7138F005B287F /* LocalCSVLoaderTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "free way/free way.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7GN9P68XR;
 				INFOPLIST_FILE = "free way/Info.plist";
@@ -449,6 +482,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quiver.free-way";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,6 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "free way/free way.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7GN9P68XR;
 				INFOPLIST_FILE = "free way/Info.plist";
@@ -468,6 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quiver.free-way";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
