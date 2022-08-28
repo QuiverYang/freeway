@@ -24,13 +24,14 @@ private struct SpeedCameraCSVAdaptor {
         let direction = Direction(rawValue: rowData[3]) ?? Direction.empty
         let road = rowData[2]
         let roadMarker = Double(rowData[4]) ?? -99
-        
+        let limit = Int(rowData[5]) ?? -99
         return SpeedCamera(id: id,
                            longtitude: longtitude,
                            latitude: latitude,
                            memo: memo,
                            direction: direction,
                            road: road,
-                           roadMarker: roadMarker)
+                           roadMarker: roadMarker,
+                           limit: limit)
     }
 }
