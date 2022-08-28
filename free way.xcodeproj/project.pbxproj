@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2106724228BA163400640B17 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2106724028BA163400640B17 /* ButtonCell.swift */; };
+		2106724328BA163400640B17 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2106724128BA163400640B17 /* ButtonCell.xib */; };
 		217A3D1F28B60C68005B287F /* location.csv in Resources */ = {isa = PBXBuildFile; fileRef = 217A3D1E28B60C68005B287F /* location.csv */; };
 		217A3D2028B61306005B287F /* location.csv in Resources */ = {isa = PBXBuildFile; fileRef = 217A3D1E28B60C68005B287F /* location.csv */; };
 		217A3D2328B7138F005B287F /* LocalCSVLoaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A3D2228B7138E005B287F /* LocalCSVLoaderTest.swift */; };
 		217A3D2628B7B671005B287F /* SpeedCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A3D2528B7B671005B287F /* SpeedCamera.swift */; };
 		217A3D2928B7B6C8005B287F /* LocalCSVLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A3D2828B7B6C7005B287F /* LocalCSVLoader.swift */; };
 		217A3D2B28B7B71B005B287F /* SpeedCameraMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A3D2A28B7B71B005B287F /* SpeedCameraMapper.swift */; };
+		217A3D2E28B90203005B287F /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A3D2D28B90203005B287F /* MapViewModel.swift */; };
 		21F9B6782778ABC9005BE8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9B6772778ABC9005BE8EF /* AppDelegate.swift */; };
 		21F9B67A2778ABC9005BE8EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9B6792778ABC9005BE8EF /* SceneDelegate.swift */; };
 		21F9B67C2778ABC9005BE8EF /* AppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9B67B2778ABC9005BE8EF /* AppleViewController.swift */; };
@@ -40,12 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2106724028BA163400640B17 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		2106724128BA163400640B17 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
 		217A3D1E28B60C68005B287F /* location.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location.csv; sourceTree = "<group>"; };
 		217A3D2128B61443005B287F /* free way.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "free way.entitlements"; sourceTree = "<group>"; };
 		217A3D2228B7138E005B287F /* LocalCSVLoaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCSVLoaderTest.swift; sourceTree = "<group>"; };
 		217A3D2528B7B671005B287F /* SpeedCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedCamera.swift; sourceTree = "<group>"; };
 		217A3D2828B7B6C7005B287F /* LocalCSVLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCSVLoader.swift; sourceTree = "<group>"; };
 		217A3D2A28B7B71B005B287F /* SpeedCameraMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedCameraMapper.swift; sourceTree = "<group>"; };
+		217A3D2D28B90203005B287F /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		21F9B6742778ABC9005BE8EF /* free way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "free way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F9B6772778ABC9005BE8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F9B6792778ABC9005BE8EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				217A3D2528B7B671005B287F /* SpeedCamera.swift */,
-				217A3D2A28B7B71B005B287F /* SpeedCameraMapper.swift */,
 			);
 			path = "Camera Feature";
 			sourceTree = "<group>";
@@ -99,8 +104,20 @@
 			isa = PBXGroup;
 			children = (
 				217A3D2828B7B6C7005B287F /* LocalCSVLoader.swift */,
+				217A3D2A28B7B71B005B287F /* SpeedCameraMapper.swift */,
 			);
 			path = CSV;
+			sourceTree = "<group>";
+		};
+		217A3D2C28B901BF005B287F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				21F9B67B2778ABC9005BE8EF /* AppleViewController.swift */,
+				217A3D2D28B90203005B287F /* MapViewModel.swift */,
+				2106724028BA163400640B17 /* ButtonCell.swift */,
+				2106724128BA163400640B17 /* ButtonCell.xib */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		21F9B66B2778ABC9005BE8EF = {
@@ -126,13 +143,13 @@
 		21F9B6762778ABC9005BE8EF /* free way */ = {
 			isa = PBXGroup;
 			children = (
+				217A3D2C28B901BF005B287F /* Map */,
 				217A3D2728B7B69F005B287F /* CSV */,
 				217A3D2428B7B625005B287F /* Camera Feature */,
 				217A3D2128B61443005B287F /* free way.entitlements */,
 				217A3D1E28B60C68005B287F /* location.csv */,
 				21F9B6772778ABC9005BE8EF /* AppDelegate.swift */,
 				21F9B6792778ABC9005BE8EF /* SceneDelegate.swift */,
-				21F9B67B2778ABC9005BE8EF /* AppleViewController.swift */,
 				21F9B67D2778ABC9005BE8EF /* Main.storyboard */,
 				21F9B6802778ABCC005BE8EF /* Assets.xcassets */,
 				21F9B6822778ABCC005BE8EF /* LaunchScreen.storyboard */,
@@ -264,6 +281,7 @@
 			files = (
 				21F9B6842778ABCC005BE8EF /* LaunchScreen.storyboard in Resources */,
 				21F9B6812778ABCC005BE8EF /* Assets.xcassets in Resources */,
+				2106724328BA163400640B17 /* ButtonCell.xib in Resources */,
 				217A3D1F28B60C68005B287F /* location.csv in Resources */,
 				21F9B67F2778ABC9005BE8EF /* Main.storyboard in Resources */,
 			);
@@ -295,8 +313,10 @@
 				217A3D2B28B7B71B005B287F /* SpeedCameraMapper.swift in Sources */,
 				21F9B6782778ABC9005BE8EF /* AppDelegate.swift in Sources */,
 				217A3D2628B7B671005B287F /* SpeedCamera.swift in Sources */,
+				217A3D2E28B90203005B287F /* MapViewModel.swift in Sources */,
 				21F9B67A2778ABC9005BE8EF /* SceneDelegate.swift in Sources */,
 				217A3D2928B7B6C8005B287F /* LocalCSVLoader.swift in Sources */,
+				2106724228BA163400640B17 /* ButtonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
